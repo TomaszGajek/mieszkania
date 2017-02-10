@@ -1,12 +1,22 @@
-.scheme_default .slider_style_modern .swiper-pagination-current {
-	color:white;
-}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-02-10, 08:48:53
+    Author     : dell
+*/
+body {
+  background: lightgrey; }
 
-.scheme_default h2 {
-	color:white;
-}
+h2.heading--white {
+  color: #FFFFFF; }
 
-.sc_content-5 {
-	margin-left:5px;
-	margin-right:5px;
-}
+section.scheme_side {
+  background: #FFFFFF; }
+
+.scheme_side h3 {
+  color: black; }
+
+/*# sourceMappingURL=mystyle.css.map */
