@@ -7,8 +7,41 @@ and open the template in the editor.
     Created on : 2017-02-10, 08:48:53
     Author     : dell
 */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,600&subset=latin-ext");
 body {
   background: lightgrey; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif; }
+
+a span {
+  font-family: "Oswald", sans-serif !important; }
+
+.tp-caption {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal !important; }
+
+.trx_addons_audio_player .audio_author, .sc_item_subtitle, .sc_item_button .sc_button_simple, .sc_recent_news .post_item .post_meta, .sc_action_item_description, .sc_price_description, .sc_price_details, .sc_promo_modern .sc_promo_link2 span, .sc_skills_counter .sc_skills_item_title, .slider_style_modern .slider_controls_label span, .slider_titles_outside_wrap .slide_cats, .slider_titles_outside_wrap .slide_subtitle, .sc_team .sc_team_item_subtitle, .sc_services .sc_services_item_subtitle, .team_member_page .team_member_brief_info_text, .sc_testimonials_item_author_title {
+  font-family: "Oswald", sans-serif; }
+
+.slider_style_modern .slider_controls_label span + span {
+  font-size: 1.2em; }
+
+.slider_style_modern .slider_controls_label span:first-child {
+  font-size: 0.9em; }
+
+.sc_promo_modern .sc_promo_link2 span + span {
+  font-weight: normal;
+  font-size: 1.4em; }
+
+.scheme_default .slider_style_modern .swiper-pagination-current {
+  color: white; }
 
 h2.heading--white {
   color: #FFFFFF; }
@@ -18,5 +51,27 @@ section.scheme_side {
 
 .scheme_side h3 {
   color: black; }
+
+.scheme_side .trx_addons_dark, .scheme_side .trx_addons_dark > a {
+  color: #13162b; }
+
+.scheme_side .sc_form_field button:hover {
+  color: black; }
+
+.scheme_light .sc_button_hover_slide_top {
+  background: linear-gradient(to bottom, #FFFFFF 50%, #3fb9be 50%) no-repeat scroll right bottom/100% 210% #3fb9be !important; }
+
+.scheme_light .sc_item_button a:not(.sc_button_bg_image):hover {
+  color: black !important; }
+
+@media (max-width: 768px) {
+  .slider_style_modern .slider_controls_label span + span {
+    font-size: 1em; }
+
+  .slider_style_modern .slider_controls_label span:first-child {
+    font-size: 0.8em; } }
+@media (max-width: 959px) {
+  .sc_button--margin {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=mystyle.css.map */
