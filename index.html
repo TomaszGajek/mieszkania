@@ -30,7 +30,7 @@
 <body class="home page preloader blog_style_excerpt sidebar_hide expand_content remove_margins header_style_header-1 header_title_off menu_style_left menu_style_side anchor_slide">
 	<div class="body_wrap">
 		<div class="page_wrap">
-			<header class="top_panel top_panel_style_1 without_bg_image scheme_side">
+			<header class="top_panel top_panel_style_1 without_bg_image scheme_side" id="home">
 				<div class="header_widgets_wrap widget_area header_fullwidth">
 					<div class="header_widgets_wrap_inner widget_area_inner">
 						<aside id="trx_addons_widget_slider-3" class="widget widget_slider">
@@ -46,12 +46,12 @@
 												<div class="tp-caption slide_bg tp-resizeme" id="slide-1-layer-6" data-x="center" data-hoffset="" data-y="center" data-voffset="" data-width="['470']" data-height="['630']" data-transform_idle="o:1;" data-transform_in="y:bottom;s:800;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
 												</div>
 												
-												<div class="tp-caption   tp-resizeme  slide_subtitle" id="slide-1-layer-5" data-x="center" data-hoffset="" data-y="center" data-voffset="-110" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on">Znajdź najlepsze </div>
+												<div class="tp-caption   tp-resizeme  slide_subtitle" id="slide-1-layer-5" data-x="center" data-hoffset="" data-y="center" data-voffset="-110" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on"></div>
 												
-												<h1 class="tp-caption   tp-resizeme  slide_title" id="slide-1-layer-1" data-x="center" data-hoffset="" data-y="center" data-voffset="-20" data-width="['1024']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="2400" data-splitin="none" data-splitout="none" data-responsive_offset="on">NOWOCZESNE APARTAMENTOWCE<br>
-												W NOWYM KOMPLEKSIE </h1>
+												<h1 class="tp-caption   tp-resizeme  slide_title" id="slide-1-layer-1" data-x="center" data-hoffset="" data-y="center" data-voffset="-20" data-width="['1024']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="2400" data-splitin="none" data-splitout="none" data-responsive_offset="on">NOWOCZESNY APARTAMENT<br>
+												NA KRÓLEWSKIM WZGÓRZU </h1>
 												
-												<div class="tp-caption rev-btn  tp-resizeme  theme_button slide_button" id="slide-1-layer-2" data-x="center" data-hoffset="" data-y="center" data-voffset="150" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;" data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);" data-transform_in="y:50px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="2700" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"simplelink","target":"_blank","url":"http:\/\/themeforest.net\/user\/themerex\/portfolio","delay":""}]' data-responsive_offset="on">Dowiedz się więcej </div>
+												<!-- <div class="tp-caption rev-btn  tp-resizeme  theme_button slide_button" id="slide-1-layer-2" data-x="center" data-hoffset="" data-y="center" data-voffset="150" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;" data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);" data-transform_in="y:50px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="2700" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"simplelink","target":"_blank","url":"http:\/\/themeforest.net\/user\/themerex\/portfolio","delay":""}]' data-responsive_offset="on"></div> -->
 												
 												<div class="tp-caption   tp-resizeme  slide_scroll" id="slide-1-layer-3" data-x="center" data-hoffset="" data-y="bottom" data-voffset="40" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;s:300;" data-start="3000" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]' data-responsive_offset="on">
 													<div class="theme_scroll_down">Zobacz</div>
@@ -69,14 +69,19 @@
 			<div class="menu_side_wrap scheme_side">
 				<span class="menu_side_button icon-menu-2"></span>
 				<div class="menu_side_inner">
-					<a class="logo" href="#">
+					<!-- <a class="logo" href="#">
 						<img src="images/logo.png" class="logo_main" alt="" width="132" height="127">
 					</a>
 					<div class="toc_menu_item">
-						<a href="#" class="toc_menu_description menu_mobile_description">
-							<span class="toc_menu_description_title">Main menu</span>
+						<a href="#home" class="toc_menu_description menu_mobile_description">
+							<span class="toc_menu_description_title">Home</span>
 						</a>
 						<a class="menu_mobile_button toc_menu_icon icon-menu-2" href="#"></a>
+					</div> -->
+					<div class="toc_menu_item">
+						<a href="#home" class="toc_menu_description" style="height: 153px; line-height: 153px;"><span class="toc_menu_description_title">Home</span></a>
+						<a href="#home" class="toc_menu_icon icon-menu-2" style="height: 153px; line-height: 153px;">
+						</a>
 					</div>
 				</div>
 			</div>
@@ -280,7 +285,7 @@
 							<section class="full-height-section no-col-padding columns-stretch content-middle">
 								<div class="container">
 									<div class="row">
-										<a id="sc_anchor_new_complex" class="sc_anchor sc_anchor_default" title="New Complex" data-icon="icon-note-2" data-url=""></a>
+										<a id="sc_anchor_new_complex" class="sc_anchor sc_anchor_default" title="Oferta" data-icon="icon-note-2" data-url=""></a>
 										<div class="columns_wrap">
 											<div class="column_container column-1_1">
 												<div class="column-inner">
@@ -288,26 +293,95 @@
 													<div class="sc_promo sc_promo_modern sc_promo_size_large sc_promo_no_paddings sc_promo_image_position_right sc_promo_image_width_50p">
 														<div class="sc_promo_image_wrap">
 															<div class="sc_promo_image bg_image_1"></div>
-															<a class="sc_promo_link2" href="#">
-																<span>Więcej</span>
-																<span>ZDJĘĆ</span>
+															<a class="sc_promo_link2" href="#gallery">
+																<span>Dowiedz się</span>
+																<span>WIĘCEJ</span>
 															</a>
 														</div>
 														<div class="sc_promo_text">
 															<div class="sc_promo_text_inner">
-																<h6 class="sc_item_subtitle sc_promo_subtitle sc_align_default sc_item_title_style_default">Luksusowe Apartamenty</h6>
-																<h2 class="sc_item_title sc_promo_title sc_align_default sc_item_title_style_default">Przedstawiamy nowe apartamenty</h2>
-																<div class="sc_item_descr sc_promo_descr sc_align_default">Each apartments has been individually designed to maximise space and light. Smart Home Technology installed as standard in each apartment putting you in total control of your home at the touch of a button from wherever you might be.</div>
+																<!-- <h6 class="sc_item_subtitle sc_promo_subtitle sc_align_default sc_item_title_style_default">Luksusowe Apartamenty</h6> -->
+																<h2 class="sc_item_title sc_promo_title sc_align_default sc_item_title_style_default">Mieszkanie #1</h2>
+																<div class="sc_item_descr sc_promo_descr sc_align_default">Apartament na Królewskim Wzgórzu jest idealną propozycją zarówno dla singli jak i rodzin z dziećmi. Nowoczesne  mieszkanie o wysokim standardzie wykończenia, kameralne osiedle, a także znakomita infrastruktura tworzą razem doskonałe miejsce do zamieszkania na stałe.</div>
 																<div class="sc_item_button sc_item_button_simple sc_promo_button sc_align_default sc_button_wrap">
-																	<a href="#" class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_left">
+																	<a class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_left slide__text">
 																		<span class="sc_button_text">
 																			<span class="sc_button_title">Dowiedz się więcej</span>
 																		</span>
 																	</a>
 																</div>
+															</div>														
+														</div>													
+													</div>
+	
+														<div class="sc_promo sc_promo_modern sc_promo_size_large sc_promo_no_paddings sc_promo_box">
+														<!-- <p>Przedstawiamy Państwu komfortowe mieszkanie o wschodniej ekspozycji.<br> Nieruchomość składa się z dwóch samodzielnych pokoi oraz kuchni i łazienki.
+														</p> -->
+														<div class="apartment">
+															<div class="apartment__includes">
+																<div class="room">
+																	<p>Kuchnia</p>
+																</div>
+																<div class="description">
+																	<p>Powierzchnia - m</p>
+																	<p>Podłoga - Płytki Loft Cement firmy Ibero (gres)</p>
+																	<p>Ściany - Farby Lateksowe Beckers. Podłoże cekolowane, 2-krotnie gruntowane). Na jednej ze ścian nowoczesna tapeta  firmy Rasch - odporna na zmywanie i światło</p>
+																	<p>Oświetlenie - jedno główne oraz LED przy zabudowie
+																	Wyposażenie - zabudowa kuchenna na wymiar (lakierowane fronty, prowadnice firmy ), lodówka  oraz płyta indukcyjna firmy Bosh, piekarnik Electrolux, okap Gorencje, możliwość zamontowania zmywarki w zabudowie kuchennej.</p>
+																</div>
+															</div>
+															<div class="apartment__includes">
+																<div class="room">
+																	<p>Łazienka</p>
+																</div>
+																<div class="description">
+																	<p>Powierzchnia - m</p>
+																	<p>Podłoga - Płytki Aran Brąz firmy Pilch</p>
+																	<p>Ściany - Płytki Loft Cement firmy Ibero (gres). Sufit - farba lateksowa Beckers</p>
+																	<p>Oświetlenie - Jedno główne. Dodatkowo podwieszany sufit,  2 kinkiety  LED</p>
+																	<p>Wyposażenie - włączniki niemieckiej firmy Berker, kabina i brodzik Radaway, pralka Bosch, system WC Geberit, meble na wymiar (lakierowane).</p>
+																</div>
+															</div>
+															<div class="apartment__includes">
+																<div class="room">
+																	<p>Przedpokój</p>
+																</div>
+																<div class="description">
+																	<p>Powierzchnia - m</p>
+																	<p>Podłoga - Płytki Loft Cement firmy Ibero (gres)</p>
+																	<p>Ściany - Farby Lateksowe Beckers. Podłoże cekolowane, 2-krotnie gruntowane)</p>
+																	<p>Oświetlenie - LED (3 kinkiety) - podwieszany sufit</p>
+																	<p>Wyposażenie - szafa (zabudowa) o wymiarach 110 x 250 x 70 cm.</p>
+																</div>
+															</div>
+															<div class="apartment__includes">
+																<div class="room">
+																	<p>Pokój 1</p>
+																</div>
+																<div class="description">
+																	<p>Powierzchnia - m</p>
+																	<p>Podłoga - Panele firmy Classen (Dąb Verden Śnieżny) o klasie ścieralności AC4. </p>
+																	<p>Ściany - Farby Lateksowe Beckers. Podłoże cekolowane, 2-krotnie gruntowane).</p>
+																	<p>Oświetlenie - jedno główne</p>
+																	<p>Wyposażenie - Kanapa, szafa na prowadnicach, biurko, telewizor, złącza RJ45 / Złącze TV</p>
+																	<p>Informacje dodatkowe - pokój posiada balkon z widokiem na ogród …</p>
+																</div>
+															</div>
+															<div class="apartment__includes">
+																<div class="room">
+																	<p>Pokój 2</p>
+																</div>
+																<div class="description">
+																	<p>Powierzchnia - m</p>
+																	<p>Podłoga - Panele firmy Classen (Dąb Verden Śnieżny) o klasie ścieralności AC4. </p>
+																	<p>Ściany - Farby Lateksowe Beckers. Podłoże cekolowane, 2-krotnie gruntowane).</p>
+																	<p>Oświetlenie - jedno główne</p>
+																	<p>Wyposażenie - Kanapa, szafa na prowadnicach, biurko, telewizor, złącza RJ45 / Złącze TV</p>
+																</div>
 															</div>
 														</div>
 													</div>
+													
 													<div class="height_large"></div>
 													<div class="row">
 														<div class="columns_wrap">
@@ -318,32 +392,33 @@
 																			<div class="sc_skills_column trx_addons_column-1_4">
 																				<div class="sc_skills_item_wrap">
 																					<div class="sc_skills_item">
-																						<div class="sc_skills_total" data-start="0" data-stop="136" data-step="13" data-max="1250" data-speed="26" data-duration="272" data-ed="">0</div>
+																						<div class="sc_skills_total" data-start="0" data-stop="2" data-step="13" data-max="1250" data-speed="26" data-duration="272" data-ed="">0</div>
 																					</div>
-																					<div class="sc_skills_item_title">Luxe Apartments</div>
+																					<div class="sc_skills_item_title">Piętro</div>
 																				</div>
 																			</div><div class="sc_skills_column trx_addons_column-1_4">
 																				<div class="sc_skills_item_wrap">
 																					<div class="sc_skills_item">
-																						<div class="sc_skills_total" data-start="0" data-stop="355" data-step="13" data-max="1250" data-speed="30" data-duration="819" data-ed="">0</div>
+																						<div class="apartment__number">2</div>
 																					</div>
-																					<div class="sc_skills_item_title">Bedrooms</div>
+																					<div class="sc_skills_item_title">Pokoje</div>
 																				</div>
 																			</div><div class="sc_skills_column trx_addons_column-1_4">
 																				<div class="sc_skills_item_wrap">
 																					<div class="sc_skills_item">
-																						<div class="sc_skills_total" data-start="0" data-stop="326" data-step="13" data-max="1250" data-speed="15" data-duration="376" data-ed="">0</div>
+																						<div class="apartment__number">47,82<span>m<sup>2</sup></span></div>
 																					</div>
-																					<div class="sc_skills_item_title">Square Areas</div>
+																					<div class="sc_skills_item_title">Powierzchnia</div>
 																				</div>
 																			</div><div class="sc_skills_column trx_addons_column-1_4">
 																				<div class="sc_skills_item_wrap">
 																					<div class="sc_skills_item">
-																						<div class="sc_skills_total" data-start="0" data-stop="1225" data-step="13" data-max="1250" data-speed="33" data-duration="3110" data-ed="">0</div>
+																						<div class="apartment__number">410 000<span>PLN</span></div>
 																					</div>
-																					<div class="sc_skills_item_title">Happy Customers</div>
+																					<div class="sc_skills_item_title">Cena</div>
 																				</div>
 																			</div>
+
 																		</div>
 																	</div>
 																</div>
@@ -358,10 +433,10 @@
 								</div>
 							</section>
 
-							<section class="full-height-section no-col-padding columns-stretch content-middle bg_image_2">
+							<section class="full-height-section no-col-padding columns-stretch content-middle bg_image_2" id="gallery">
 								<div class="container">
 									<div class="row">
-										<a id="sc_anchor_photo_tour" class="sc_anchor sc_anchor_default" title="Photo Tour" data-icon="icon-home-2" data-url=""></a>
+										<a id="sc_anchor_photo_tour" class="sc_anchor sc_anchor_default" title="Galeria" data-icon="icon-home-2" data-url=""></a>
 										<div class="columns_wrap">
 											<div class="column_container column-1_1">
 												<div class="column-inner">
@@ -553,14 +628,14 @@
 							<section class="no-col-padding columns-stretch content-middle">
 								<div class="container">
 									<div class="row">
-										<a id="sc_anchor_plans" class="sc_anchor sc_anchor_default" title="Apartments Plans" data-icon="icon-floor" data-url=""></a>
+										<a id="sc_anchor_plans" class="sc_anchor sc_anchor_default" title="Plan mieszkania" data-icon="icon-floor" data-url=""></a>
 										<div class="columns_wrap">
 											<div class="column_container column-1_1">
 												<div class="column-inner">
 													<div class="height_large"></div>
 													<div class="sc_content sc_content_default">
 														<h6 class="sc_item_subtitle sc_content_subtitle sc_align_center sc_item_title_style_shadow">03</h6>
-														<h2 class="sc_item_title sc_content_title sc_align_center sc_item_title_style_shadow">Apartments plans</h2>
+														<h2 class="sc_item_title sc_content_title sc_align_center sc_item_title_style_shadow">Plan mieszkania</h2>
 													</div>
 													<div class="height_tiny"></div>
 													<div id="slider_plans" class="widget_area sc_widget_slider">
@@ -613,7 +688,7 @@
 																									</ul>
 																									<div class="height_small"></div>
 																									<div class="sc_item_button sc_button_wrap">
-																										<a href="#" class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left sc_button--margin">
+																										<a href="#contact" class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left sc_button--margin">
 																											<span class="sc_button_text">
 																												<span class="sc_button_title">Zaplanuj spotkanie</span>
 																											</span>
@@ -688,7 +763,7 @@
 																									</ul>
 																									<div class="height_small"></div>
 																									<div class="sc_item_button sc_button_wrap">
-																										<a href="#" class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left">
+																										<a href="#contact" class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left">
 																											<span class="sc_button_text">
 																												<span class="sc_button_title">Zaplanuj spotkanie</span>
 																											</span>
@@ -902,14 +977,14 @@
 							<section class="full-height-section no-col-padding columns-stretch content-middle bg_image_3">
 								<div class="container">
 									<div class="row">
-										<a id="sc_anchor_amenities" class="sc_anchor sc_anchor_default" title="Amenities" data-icon="icon-clipboard" data-url=""></a>
+										<a id="sc_anchor_amenities" class="sc_anchor sc_anchor_default" title="Królewskie Wzgórze" data-icon="icon-clipboard" data-url=""></a>
 										<div class="columns_wrap">
 											<div class="column_container column-2_3">
 												<div class="column-inner">
 													<div class="height_large"></div>
 													<div class="scheme_dark sc_content sc_content_default">
 														<h6 class="sc_item_subtitle sc_content_subtitle sc_align_default sc_item_title_style_default">Apartamentowe udogodnienia</h6>
-														<h2 class="sc_item_title sc_content_title sc_align_default sc_item_title_style_default">PIĘKNE LUKSUSOWE APARTAMENTY, STWORZONE DLA CIEBIE</h2>
+														<h2 class="sc_item_title sc_content_title sc_align_default sc_item_title_style_default">NOWOCZESNE MIESZKANIE W PRZYJEMNYM OTOCZENIU</h2>
 													</div>
 													<div class="height_small"></div>
 													<div class="row">
@@ -921,8 +996,8 @@
 																			<div class="trx_addons_column-1_3 ">
 																				<div class="sc_services_item without_content with_icon sc_services_item_featured_top">
 																					<div class="sc_services_item_header">
-																						<a href="#" id="sc_services_1559316197_icon-modem" class="sc_services_item_icon sc_icon_type_svg">
-																							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+																						<a id="sc_services_1559316197_icon-modem" class="sc_services_item_icon sc_icon_type_svg">
+																							<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 																								<path stroke-width="25" stroke-miterlimit="10" d="M346.536,119.412
 																								c-53.23-53.23-139.843-53.23-193.073,0"/>
 																								<path stroke-width="25" stroke-miterlimit="10" d="M391.801,74.148
@@ -931,10 +1006,10 @@
 																								c-13.679-13.679-31.887-21.211-51.273-21.211c-19.386,0-37.595,7.532-51.273,21.211"/>
 																								<polygon stroke-width="25" stroke-miterlimit="10" points="258.682,274.249 258.682,215.335
 																								241.318,215.335 241.318,274.249 15.695,274.249 15.695,485.937 484.305,485.937 484.305,274.249 "/>
-																							</svg>
+																							</svg> -->
 																						</a>
 																						<h6 class="sc_services_item_title">
-																						<a href="#">Free Height Speed Wi-Fi</a>
+																						<a class="apartment__desc">Hale Garażowe</a>
 																						</h6>
 																						<div class="sc_services_item_subtitle">
 																							<a href="#" title="View all posts in Apartments">Apartments</a>,
@@ -946,16 +1021,16 @@
 																				<div class="sc_services_item without_content with_icon sc_services_item_featured_top">
 																					<div class="sc_services_item_header">
 																						<a href="#" id="sc_services_1559316197_icon-laundry" class="sc_services_item_icon sc_icon_type_svg">
-																							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+																							<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 																								<path stroke-width="25" stroke-miterlimit="10" d="M250,207.238
 																									c-58.966,0-106.938,47.972-106.938,106.938S191.034,421.114,250,421.114c58.966,0,106.938-47.973,106.938-106.938
 																								S308.966,207.238,250,207.238z"/>
 																								<rect x="38.5" y="19.489" stroke-width="25" stroke-miterlimit="10" width="423" height="461.021"/>
 																								<line stroke-width="25" stroke-miterlimit="10" x1="25.5" y1="143.5" x2="473.5" y2="143.5"/>
-																							</svg>
+																							</svg> -->
 																						</a>
 																						<h6 class="sc_services_item_title">
-																						<a href="#">Luxury Appliances</a>
+																						<a class="apartment__desc">Nowoczesne windy</a>
 																						</h6>
 																						<div class="sc_services_item_subtitle">
 																							<a href="#" title="View all posts in Apartments">Apartments</a>,
@@ -967,7 +1042,7 @@
 																				<div class="sc_services_item without_content with_icon sc_services_item_featured_top">
 																					<div class="sc_services_item_header">
 																						<a href="#" id="sc_services_1559316197_icon-cart" class="sc_services_item_icon sc_icon_type_svg">
-																							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+																							<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 																								<path stroke-width="25" stroke-miterlimit="10" d="M105.769,392.673
 																									c-25.811,0-46.809,20.997-46.809,46.81c0,25.81,20.998,46.809,46.809,46.809s46.81-20.999,46.81-46.809
 																								C152.579,413.67,131.58,392.673,105.769,392.673z"/>
@@ -977,10 +1052,10 @@
 																								<path stroke-width="25" stroke-miterlimit="10" d="M484.44,138.396H376.209
 																									c-6.541-51.901-52.786-93.147-104.687-99.686V13.709h-18.934V38.71c-51.9,6.541-98.147,47.786-104.686,99.686H40.605V90.884H15.56
 																								v8.934h24.111v192.197H58.96v72.688h406.192v-72.688h19.288V138.396z"/>
-																							</svg>
+																							</svg> -->
 																						</a>
 																						<h6 class="sc_services_item_title">
-																						<a href="#">Outdoor BBQ area</a>
+																						<a class="apartment__desc">Monitoring</a>
 																						</h6>
 																						<div class="sc_services_item_subtitle">
 																							<a href="#" title="View all posts in Apartments">Apartments</a>,
@@ -992,15 +1067,15 @@
 																				<div class="sc_services_item without_content with_icon sc_services_item_featured_top">
 																					<div class="sc_services_item_header">
 																						<a href="#" id="sc_services_1559316197_icon-parking" class="sc_services_item_icon sc_icon_type_svg">
-																							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+																							<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 																								<path stroke-width="25" stroke-miterlimit="10" d="M205.346,275.382h58.393
 																								c34.282,0,62.173-27.891,62.173-62.173c0-34.282-27.891-62.173-62.173-62.173h-58.65V355.84h0.257V275.382z"/>
 																								<rect x="14.5" y="14.5" stroke-width="25" stroke-miterlimit="10" width="473" height="473"/>
 																								<rect x="82.768" y="82.768" stroke-width="25" stroke-miterlimit="10" width="336.463" height="336.463"/>
-																							</svg>
+																							</svg> -->
 																						</a>
 																						<h6 class="sc_services_item_title">
-																						<a href="#">Parking place</a>
+																						<a class="apartment__desc">Dogodna infrastruktura</a>
 																						</h6>
 																						<div class="sc_services_item_subtitle">
 																							<a href="#" title="View all posts in Apartments">Apartments</a>,
@@ -1012,7 +1087,7 @@
 																				<div class="sc_services_item without_content with_icon sc_services_item_featured_top">
 																					<div class="sc_services_item_header">
 																						<a href="#" id="sc_services_1559316197_icon-swimming-pool" class="sc_services_item_icon sc_icon_type_svg">
-																							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+																							<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 																								<path stroke-width="25" stroke-miterlimit="10" d="M499.999,428.258
 																									c-20.349,0-31.185,7.3-39.892,13.165c-7.05,4.749-11.709,7.887-22.611,7.887c-10.903,0-15.563-3.139-22.612-7.888
 																									c-8.708-5.865-19.544-13.165-39.892-13.165c-20.349,0-31.185,7.3-39.892,13.165c-7.05,4.749-11.707,7.888-22.61,7.888
@@ -1035,10 +1110,10 @@
 																									<path stroke-width="25" stroke-miterlimit="10" d="M171.081,172.129c1.745,0,125.582,0,125.582,0"/>
 																									<path stroke-width="25" stroke-miterlimit="10" d="M171.081,272.129c10.151,0,1.341,0,125.582,0"/>
 																								</g>
-																							</svg>
+																							</svg> -->
 																						</a>
 																						<h6 class="sc_services_item_title">
-																						<a href="#">Swimming Pool</a>
+																						<a class="apartment__desc">Osiedle Ogrodów</a>
 																						</h6>
 																						<div class="sc_services_item_subtitle">
 																							<a href="#" title="View all posts in Apartments">Apartments</a>,
@@ -1050,7 +1125,7 @@
 																				<div class="sc_services_item without_content with_icon sc_services_item_featured_top">
 																					<div class="sc_services_item_header">
 																						<a href="#" id="sc_services_1559316197_icon-ironing" class="sc_services_item_icon sc_icon_type_svg">
-																							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+																							<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 																								<g>
 																									<path stroke-width="25" stroke-miterlimit="10" d="M354.364,135.536H205.64l0.014-24.626
 																										l-17.063,0.014v25.515c-51.848,6.521-98.637,47.726-105.158,99.573h-5.704c-33.56,0-60.863,27.303-60.863,60.863
@@ -1062,10 +1137,10 @@
 																									<path stroke-width="25" stroke-miterlimit="10" d="M79.98,235.556c1.645,0,333.882,0,333.882,0"/>
 																									<path stroke-width="25" stroke-miterlimit="10" d="M37.357,341.64c2.077,0,421.496,0,421.496,0"/>
 																								</g>
-																							</svg>
+																							</svg> -->
 																						</a>
 																						<h6 class="sc_services_item_title">
-																						<a href="#">Washer &#8211; Dryer</a>
+																						<a class="apartment__desc">Place Zabaw</a>
 																						</h6>
 																						<div class="sc_services_item_subtitle">
 																							<a href="#" title="View all posts in Interior">Interior</a>,
@@ -1088,7 +1163,7 @@
 								</div>
 							</section>
 
-							<section class="no-col-padding columns-stretch content-middle">
+						<!-- 	<section class="no-col-padding columns-stretch content-middle">
 								<div class="container">
 									<div class="row">
 										<a id="sc_anchor_film" class="sc_anchor sc_anchor_default" title="Lifestyle films" data-icon="icon-video-2" data-url=""></a>
@@ -1181,7 +1256,7 @@
 										</div>
 									</div>
 								</div>
-							</section>
+							</section> -->
 
 							<!-- <section class="no-col-padding no-row-margin scheme_dark">
 								<div class="container">
@@ -1245,19 +1320,19 @@
 								</div>
 							</section> -->
 
-							<section class="full-height-section no-col-padding columns-stretch content-middle bg_image_5">
+							<section class="full-height-section no-col-padding columns-stretch content-middle bg_image_5 news">
 								<div class="container">
 									<div class="row">
-										<a id="sc_anchor_news" class="sc_anchor sc_anchor_default" title="New &amp; Articles" data-icon="icon-newspaper" data-url=""></a>
+										<a id="sc_anchor_news" class="sc_anchor sc_anchor_default" title="Atrakcje Osiedlowe" data-icon="icon-newspaper" data-url=""></a>
 										<div class="columns_wrap">
 											<div class="column_container column-1_1">
 												<div class="column-inner phn">
 													<div class="height_medium"></div>
 													<div class="scheme_light sc_blogger sc_blogger_classic">
 														<h6 class="sc_item_subtitle sc_blogger_subtitle sc_align_center sc_item_title_style_shadow">07</h6>
-														<h2 class="sc_item_title sc_blogger_title sc_align_center sc_item_title_style_shadow heading--white">Nowości</h2>
+														<h2 class="sc_item_title sc_blogger_title sc_align_center sc_item_title_style_shadow heading--white">Atrakcje osiedlowe</h2>
 														<div class="sc_blogger_columns sc_item_columns trx_addons_columns_wrap columns_padding_bottom">
-															<div class="trx_addons_column-1_3">
+															<div class="trx_addons_column-1_2">
 																<div class="sc_blogger_item post">
 																	<div class="post_featured with_thumb hover_dots sc_blogger_item_featured">
 																		<img src="images/news_1.jpg" alt="Start of installation of water and heating systems"/>
@@ -1265,25 +1340,25 @@
 																	<div class="sc_blogger_item_content entry-content">
 																		<div class="sc_blogger_item_header entry-header">
 																			<h4 class="sc_blogger_item_title entry-title">
-																			<a href="#" rel="bookmark">Paleniska na majówke!</a>
+																			<a href="#" rel="bookmark">Palenisko na majówke!</a>
 																			</h4>
-																			<div class="sc_blogger_post_meta post_meta">
+																			<!-- <div class="sc_blogger_post_meta post_meta">
 																				<span class="post_meta_item post_date">
 																					<a href="#">July 12, 2016</a>
 																				</span>
-																			</div>
+																			</div> -->
 																		</div>
 																		<div class="sc_blogger_item_excerpt">
 																			<div class="sc_blogger_item_excerpt_text">
-																				<p>Fusce metus nulla, efficitur id convallis a, vestibulum eu dui. Nunc ornare augue a laoreet vehicula. Vestibulum ultrices nunc et consequat pellentesque. Maecenas placerat ornare pretium. Fusce tincidunt turpis in diam imperdiet, id mollis sem mollis. Duis ut arcu quam. Sed sagittis tortor nisi, sit amet imperdiet mauris eleifend et. Aenean consectetur fringilla justo, et pretium lectus. Vestibulum consequat vestibulum&hellip;</p>
+																				<p>Osiedle posiada w swojej okolicy  zieloną plażę, która jest idealnym miejscem na weekendowe grillowanie w gronie przyjaciół i rodziny.</p>
 																			</div>
-																			<div class="sc_blogger_item_button sc_item_button">
+																			<!-- <div class="sc_blogger_item_button sc_item_button">
 																				<a href="#" class="sc_button sc_button_simple">Więcej</a>
-																			</div>
+																			</div> -->
 																		</div>
 																	</div>
 																</div>
-															</div><div class="trx_addons_column-1_3">
+															</div><div class="trx_addons_column-1_2">
 																<div class="sc_blogger_item post">
 																	<div class="post_featured with_thumb hover_dots sc_blogger_item_featured">
 																		<img src="images/news_2.jpg" alt="Start of installation of water and heating systems"/>
@@ -1291,26 +1366,20 @@
 																	<div class="sc_blogger_item_content entry-content">
 																		<div class="sc_blogger_item_header entry-header">
 																			<h4 class="sc_blogger_item_title entry-title">
-																			<a href="#" rel="bookmark">Boisko dla aktywnych</a>
+																			<a href="#" rel="bookmark">Place zabaw</a>
 																			</h4>
-																			<div class="sc_blogger_post_meta post_meta">
-																				<span class="post_meta_item post_date">
-																					<a href="#">July 12, 2016</a>
-																				</span>
-																			</div>
+																			
 																		</div>
 																		<div class="sc_blogger_item_excerpt">
-																			<div class="sc_blogger_item_excerpt_text">
-																				<p>Fusce metus nulla, efficitur id convallis a, vestibulum eu dui. Nunc ornare augue a laoreet vehicula. Vestibulum ultrices nunc et consequat pellentesque. Maecenas placerat ornare pretium. Fusce tincidunt turpis in diam imperdiet, id mollis sem mollis. Duis ut arcu quam. Sed sagittis tortor nisi, sit amet imperdiet mauris eleifend et. Aenean consectetur fringilla justo, et pretium lectus. Vestibulum consequat vestibulum&hellip;</p>
+																			<div >
+																				<p>Osiedle posiada bezpieczne place zabaw dla najmłodszych dzieci. Wszystkie tereny rekreacyjne wyposażone są w urządzenia edukacyjne oraz alejki dla młodych rowerzystów. Dla starszych mieszkańców wybudowane zostało nowoczesne boisko.</p>
 																			</div>
-																			<div class="sc_blogger_item_button sc_item_button">
-																				<a href="#" class="sc_button sc_button_simple">Więcej</a>
-																			</div>
+																			
 																		</div>
 																	</div>
 																	
 																</div>
-															</div><div class="trx_addons_column-1_3">
+															</div><div class="trx_addons_column-1_2">
 																<div class="sc_blogger_item post">
 																	<div class="post_featured with_thumb hover_dots sc_blogger_item_featured">
 																		<img src="images/news_3.jpg" alt="Start of installation of water and heating systems"/>
@@ -1318,34 +1387,49 @@
 																	<div class="sc_blogger_item_content entry-content">
 																		<div class="sc_blogger_item_header entry-header">
 																			<h4 class="sc_blogger_item_title entry-title">
-																			<a href="#" rel="bookmark">Plac zabaw dla dzieci</a>
+																			<a href="#" rel="bookmark">Osiedle Ogrodów</a>
 																			</h4>
-																			<div class="sc_blogger_post_meta post_meta">
-																				<span class="post_meta_item post_date">
-																					<a href="#">July 12, 2016</a>
-																				</span>
-																			</div>
+																			
 																		</div>
 																		<div class="sc_blogger_item_excerpt">
-																			<div class="sc_blogger_item_excerpt_text">
-																				<p>Fusce metus nulla, efficitur id convallis a, vestibulum eu dui. Nunc ornare augue a laoreet vehicula. Vestibulum ultrices nunc et consequat pellentesque. Maecenas placerat ornare pretium. Fusce tincidunt turpis in diam imperdiet, id mollis sem mollis. Duis ut arcu quam. Sed sagittis tortor nisi, sit amet imperdiet mauris eleifend et. Aenean consectetur fringilla justo, et pretium lectus. Vestibulum consequat vestibulum&hellip;</p>
+																			<div>
+																				<p>Królewskie Wzgórze to osiedle z wyjątkową aranżacją terenów zielonych. Na dziedzińcach pomiędzy budynkami powstały przepiękne ogrody: letni z malowniczym mostkiem, ogród różany pełen kwiatów, ogród zimozielony i ogród biały, w którym dominują białe odmiany kwiatów.</p>
 																			</div>
-																			<div class="sc_blogger_item_button sc_item_button">
-																				<a href="#" class="sc_button sc_button_simple">Więcej</a>
+																			
+																		</div>
+																	</div>
+																	
+																</div>
+															</div><div class="trx_addons_column-1_2">
+																<div class="sc_blogger_item post">
+																	<div class="post_featured with_thumb hover_dots sc_blogger_item_featured">
+																		<img src="images/news_4.jpg" alt="Start of installation of water and heating systems"/>
+																	</div>
+																	<div class="sc_blogger_item_content entry-content">
+																		<div class="sc_blogger_item_header entry-header">
+																			<h4 class="sc_blogger_item_title entry-title">
+																			<a href="#" rel="bookmark">Trójmiejski Park Krajobrazowy</a>
+																			</h4>
+																			
+																		</div>
+																		<div class="sc_blogger_item_excerpt">
+																			<div >
+																				<p>To wspaniałe miejsce zarówno dla aktywnych mieszkańców jak i tych, którzy pragną oderwać się od codziennego zgiełku. 50 000 m kwadratowych Parku to liczne szlaki spacerowe oraz trasy biegowe, które pozwolą zadbać o dobrą kondycję ciała i umysłu.</p>
 																			</div>
+																			
 																		</div>
 																	</div>
 																	
 																</div>
 															</div>
 														</div>
-														<div class="sc_item_button sc_item_button_default sc_blogger_button sc_align_center sc_button_wrap">
+														<!-- <div class="sc_item_button sc_item_button_default sc_blogger_button sc_align_center sc_button_wrap">
 															<a href="#" class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left">
 																<span class="sc_button_text">
 																	<span class="sc_button_title">Zobacz więcej</span>
 																</span>
 															</a>
-														</div>
+														</div> -->
 													</div>
 													<div class="height_medium"></div>
 												</div>
@@ -1355,7 +1439,7 @@
 								</div>
 							</section>
 
-							<section class="no-col-padding columns-stretch column-xs-12 column-equal-height columns-flex scheme_side">
+							<section class="no-col-padding columns-stretch column-xs-12 column-equal-height columns-flex scheme_side" id="contact">
 								<div class="container-fluid">
 									<div class="row">
 										<div class="columns_wrap">
@@ -1498,6 +1582,7 @@
 	<script type='text/javascript' src='js/custom/_main.js'></script>
 	<script type='text/javascript' src='js/custom/shortcodes.js'></script>
 	<script type='text/javascript' src='js/custom/_init.js'></script>
+	<script type='text/javascript' src='js/custom/slide.js'></script>
 	
 
 	
